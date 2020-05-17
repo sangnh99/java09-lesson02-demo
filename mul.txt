@@ -1,0 +1,6 @@
+private int mul(int a,int b) throws Exception {
+	if (a * b > Integer.MAX_VALUE) {
+		throw new Exception("OverIntValueException");
+	}
+	return a * b;
+}
